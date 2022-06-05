@@ -188,9 +188,8 @@ public class Button{
         frm.getContentPane().add(btn37);
         frm.getContentPane().add(btn38);
 
+
         // 프레임이 보이도록 설정
         frm.setVisible(true);
-
     }
-
 }

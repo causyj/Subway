@@ -58,6 +58,7 @@ public class SubwayLinePanel extends JPanel {
 			}
 		}
 	}
+//서울남산체 다운 필수
 	public void paint(Graphics g) {
 		super.paint(g);
 		g.setFont(new Font("서울남산체 M", Font.BOLD, 50));

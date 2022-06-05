@@ -2,8 +2,7 @@ import java.awt.BorderLayout;
 import javax.swing.*;
 
 public class Window extends JFrame{
-	public Window()
-	{
+	public Window(){
 		setSize(1300, 900);
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
