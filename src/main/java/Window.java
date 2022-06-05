@@ -2,14 +2,13 @@ import java.awt.BorderLayout;
 import javax.swing.*;
 
 public class Window extends JFrame{
-	public Window()
-	{
-		setSize(1000, 800);
+	public Window(){
+		setSize(1300, 900);
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setTitle("¼ÒÇÁÆ®¿ş¾î ÇÁ·ÎÁ§Æ® Subway");
+		setTitle("ì†Œí”„íŠ¸ì›¨ì–´ í”„ë¡œì íŠ¸ Subway");
 		setLayout(new BorderLayout());
-		
+
 		SubwayLinePanel slp = new SubwayLinePanel();
 		add(slp);
 		setVisible(true);
