@@ -1,15 +1,20 @@
 import javax.swing.*;
 import java.awt.*;
+
 import java.awt.Color;
+
 import javax.swing.JRadioButton;
 
-//폰트설정 must
 public class Button{
+
     public static void main(String[] args) {
         Color[] color = {new Color(255,200,0)};
-
+        // 프레임 생성
         Window frm = new Window();
+
+        // 프레임 크기 설정
         frm.setSize(1300, 900);
+        // 레이아웃 설정
         frm.getContentPane().setLayout(null);
 
         // 버튼 생성
@@ -56,7 +61,7 @@ public class Button{
         JRadioButton btn37 = new JRadioButton();
         JRadioButton btn38 = new JRadioButton();
 
-        // 버튼 위치와 크기 설정
+        // ★ 버튼 위치와 크기 설정
         btn1.setBackground(color[0]);
         btn1.setBounds(361,714,16,14);
         btn2.setBackground(color[0]);
@@ -137,6 +142,9 @@ public class Button{
         btn38.setBackground(color[0]);
         btn38.setBounds(1061,204,16,14);
 
+
+
+
         // ★ 프레임에다가 버튼 추가
         frm.getContentPane().add(btn1);
         frm.getContentPane().add(btn2);
@@ -186,4 +194,3 @@ public class Button{
     }
 
 }
-
