@@ -6,12 +6,10 @@ import java.awt.Color;
 import javax.swing.JRadioButton;
 
 public class Button{
-
     public static void main(String[] args) {
         Color[] color = {new Color(255,200,0)};
         // 프레임 생성
         Window frm = new Window();
-
         // 프레임 크기 설정
         frm.setSize(1300, 900);
         // 레이아웃 설정
