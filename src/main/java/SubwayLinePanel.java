@@ -177,6 +177,7 @@ public class SubwayLinePanel extends JPanel {
 		g2d.drawString("석촌고분", 190, 1190);
 		g2d.drawString("삼전", 260, 1260);
 		g2d.setTransform(defaultAt);
+
 	}
 	}
 
