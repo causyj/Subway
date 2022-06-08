@@ -142,6 +142,7 @@ public class Window extends JFrame{
 		//4rd line
 		add(btn29); add(btn30); add(btn31); add(btn32); add(btn33); add(btn34); add(btn35); add(btn36); add(btn37); add(btn38);
 
+
 		SubwayLinePanel slp = new SubwayLinePanel();
 		add(slp);
 		setLocationRelativeTo(null);
