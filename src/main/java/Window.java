@@ -9,8 +9,11 @@ public class Window extends JFrame{
 		setTitle("소프트웨어 프로젝트 Subway");
 		setLayout(new BorderLayout());
 		SubwayLinePanel slp = new SubwayLinePanel();
+
 		add(slp);
+
 		setVisible(true);
 
 	}
 }
+
